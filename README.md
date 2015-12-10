@@ -17,6 +17,7 @@ Options
 * `:force_run` kills any process that's holding open the listen port before attempting to (re)start Rack (default `false`).
 * `:daemon` runs the server as a daemon, without any output to the terminal that ran `guard` (default `false`).
 * `:timeout` waits this number of seconds when restarting the Rack server before reporting there's a problem (default `20`).
+* `:config` optional config path
 
 Contributing
 ------------
